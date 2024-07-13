@@ -1,0 +1,19 @@
+[package]
+name = "mine-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+numpy = { version = "0.21", optional = true }
+pyo3 = { version = "0.21", optional = true ,features = ["extension-module", "abi3-py38"]}
+
+[build-dependencies]
+bindgen = "0.69"
+cc = "1"
+pyo3-build-config = "0.21"
+
+
+[features]
+default = ["py"]
+py=["numpy","pyo3"]
+
