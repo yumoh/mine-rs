@@ -1,6 +1,7 @@
 # mine-rs
 
-> minepy 的 rust wrap 实现
+
+> minepy 的 rust wrap 实现. mic(最大信息系数) 计算, 基于 [minepy](https://github.com/minepy/minepy).
 
 ## 安装
 ```bash
