@@ -22,5 +22,5 @@ build-backend = "maturin"
 python-source = "py_src"
 module-name = "minepy.mine"
 bindings = 'pyo3'
-features = ["pyo3/extension-module"]
+features = ["pyo3/extension-module","py"]
 

@@ -14,6 +14,6 @@ pyo3-build-config = "0.21"
 
 
 [features]
-default = ["py"]
+default = []
 py=["numpy","pyo3"]
 
