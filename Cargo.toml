@@ -9,7 +9,7 @@ pyo3 = { version = "0.21", optional = true ,features = ["extension-module", "abi
 
 [build-dependencies]
 bindgen = "0.69"
-cc = {versoin="1",features = ["parallel"]}
+cc = {version="1",features = ["parallel"]}
 pyo3-build-config = "0.21"
 
 
